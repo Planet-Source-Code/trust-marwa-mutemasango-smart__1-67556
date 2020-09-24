@@ -1,0 +1,16 @@
+SMART is an entry level Hotel and catering system that may be used for inventory control, menu Costing, booking, and recording sales. I built it with small restaurants and lodges in mind. 
+
+If you need help with customising the system I charge a very moderate fee. For guys learning programming this is a great project that will help get up to speeed quickly because a lot of concepts are covered.
+
+please send me details of any improvements or changes you make to the system. 
+
+Regards
+
+Trust Marwa Mutemasango
+
+csa@qmulate.co.zw
+www.qmulate.co.zw
+www.tsn.co.zw
+
+trustaldo@gmail.com
+
