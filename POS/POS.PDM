@@ -1,0 +1,127 @@
+[Root]
+Most Recent Package=POS
+
+
+[Package|POS|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Projects\POS\Package
+
+[Package|POS|Configure DAO ISAMs]
+Applicable=No
+
+[Package|POS|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|POS|Files Found]
+
+[Package|POS|Files Released]
+POS.mdb=
+
+[Package|POS|Missing Dependency Information]
+C:\Program Files\Qmulate\MSFLXGRD.OCX=
+C:\Program Files\Qmulate\COMDLG32.OCX=
+C:\Program Files\Qmulate\MSCOMCTL.OCX=
+D:\Projects\Qmulate\tdoSecurity\tdoSecurity.dll=
+
+[Package|POS|Out-of-Date Dependency Information]
+
+[Package|POS|Files Added]
+D:\Projects\POS\Package\Support\EM.mdb=
+
+[Package|POS|Files Removed]
+
+[Package|POS|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\Program Files\Qmulate\MSCOMCTL.OCX=Yes
+C:\Program Files\Qmulate\COMDLG32.OCX=Yes
+C:\Program Files\Qmulate\MSFLXGRD.OCX=Yes
+D:\Projects\POS\code\SMART.exe=Yes
+D:\Projects\Qmulate\tdoSecurity\tdoSecurity.dll=Yes
+D:\Projects\POS\Package\Support\EM.mdb=Yes
+
+[Package|POS|Configure Registry Files]
+Applicable=No
+
+[Package|POS|Configure Remote Servers]
+Applicable=No
+
+[Package|POS|Install Locations]
+D:\Projects\POS\POS.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Projects\POS\POS.mdb=$(AppPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+D:\Projects\POS\code\POS.exe=$(AppPath)
+C:\Program Files\Qmulate\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Qmulate\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Qmulate\MSFLXGRD.OCX=$(WinSysPath)
+D:\Projects\POS\code\POS.mdb=$(AppPath)
+D:\Projects\POS\code\SMART.exe=$(AppPath)
+D:\Projects\Qmulate\tdoSecurity\tdoSecurity.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Projects\POS\Package\Support\EM.mdb=$(AppPath)
+
+[Package|POS|Configure Shared Files]
+Applicable=Yes
+D:\Projects\POS\POS.exe=No
+D:\Projects\POS\POS.mdb=No
+D:\Projects\POS\code\POS.exe=No
+D:\Projects\POS\code\POS.mdb=No
+D:\Projects\POS\code\SMART.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Projects\POS\Package\Support\EM.mdb=No
+
+[Package|POS|Distribution]
+Type=single
+Size=
+Title=POS
+
+[Package|POS|IconGroups]
+Group0=POS
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|POS|POS]
+Icon1=POS.exe
+Title1=POS
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|POS|Package]
+PackageFolder=D:\Projects\POS\Package
+ProjectFolder=D:\Projects\POS\code
+ServerSideCab=
+File1=D:\Projects\POS\Package\setup.exe
+File2=D:\Projects\POS\Package\Setup.Lst
+File3=D:\Projects\POS\Package\SMART.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
